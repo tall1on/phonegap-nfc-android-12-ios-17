@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin
-    xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="phonegap-nfc"
-    version="1.2.0">
+        xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="phonegap-nfc"
+        version="1.2.0">
 
     <name>NFC</name>
 
@@ -27,9 +27,9 @@
         </config-file>
 
         <source-file src="src/android/src/com/chariotsolutions/nfc/plugin/NfcPlugin.java"
-            target-dir="src/com/chariotsolutions/nfc/plugin"/>
+                     target-dir="src/com/chariotsolutions/nfc/plugin"/>
         <source-file src="src/android/src/com/chariotsolutions/nfc/plugin/Util.java"
-            target-dir="src/com/chariotsolutions/nfc/plugin"/>
+                     target-dir="src/com/chariotsolutions/nfc/plugin"/>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.NFC"/>
@@ -121,16 +121,16 @@
         <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Debug.plist">
             <array>
                 <string>NDEF</string>
-                <string>TAG</string>  
+                <string>TAG</string>
             </array>
         </config-file>
         <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Release.plist">
             <array>
                 <string>NDEF</string>
-                <string>TAG</string>  
+                <string>TAG</string>
             </array>
         </config-file>
-        
+
         <header-file src="src/ios/NfcPlugin.h" />
         <source-file src="src/ios/NfcPlugin.m" />
 
