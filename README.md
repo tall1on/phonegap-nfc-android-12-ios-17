@@ -1,3 +1,7 @@
+Fork of https://github.com/escully27/phonegap-nfc-android-12.
+
+Contains fixes for Android 12 and iOS 17 changes and should be compatible with latest iOS 18.2 and Android 15.
+
 PhoneGap NFC Plugin
 ==========================
 
